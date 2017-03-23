@@ -4,6 +4,8 @@ module.exports = function(config) {
 
         files: [
             '*.js',
-        ]
+        ],
+
+        browsers: ['Chrome', 'Firefox']
     })
 }
