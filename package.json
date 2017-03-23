@@ -1,0 +1,27 @@
+{
+  "name": "unittest-with-a-vue",
+  "version": "1.0.0",
+  "description": "Kickabout with vue.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-jasmine": "^1.1.0"
+  },
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0tive/unittest-with-a-vue.git"
+  },
+  "author": "Peter Dodds",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m0tive/unittest-with-a-vue/issues"
+  },
+  "homepage": "https://github.com/m0tive/unittest-with-a-vue#readme"
+}
