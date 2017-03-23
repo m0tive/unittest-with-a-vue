@@ -12,7 +12,7 @@
     "karma-jasmine": "^1.1.0"
   },
   "scripts": {
-    "test": "karma"
+    "test": "karma start test/unit/karma.conf.js"
   },
   "repository": {
     "type": "git",
