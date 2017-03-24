@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Welcome to Vue</title>
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
 </head>
 <body>
   <div id="app">
@@ -30,23 +29,7 @@
     </ul>
   </div>
 
-  <script>
-    new Vue({
-      el: '#app',
-      data: {
-        greeting: 'Welcome to your Vue.js app!',
-        docsURL: 'http://vuejs.org/guide/',
-        gitterURL: 'https://gitter.im/vuejs/vue',
-        forumURL: 'http://forum.vuejs.org/'
-      },
-      methods: {
-        humanizeURL: function (url) {
-          return url
-            .replace(/^https?:\/\//, '')
-            .replace(/\/$/, '')
-        }
-      }
-    })
-  </script>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="/src/main.js"></script>
 </body>
 </html>
