@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/m0tive/unittest-with-a-vue.svg?branch=master)](https://travis-ci.org/m0tive/unittest-with-a-vue)
+
 ## Build Setup
 
 ``` bash
