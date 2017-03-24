@@ -19,4 +19,4 @@ before_script:
     - sleep 3
 
 script:
-    - npm run e2e
+    - npm run test
