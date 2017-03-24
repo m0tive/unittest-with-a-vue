@@ -34,7 +34,7 @@
     "test": "karma start test/unit/karma.conf.js --single-run && npm run e2e",
     "unit": "karma start test/unit/karma.conf.js",
     "e2e": "testcafe chrome,firefox test/e2e/test.js --app \"npm run dev-e2e\"",
-    "travis": "./node_modules/.bin/karma start test/unit/karma.conf.js --browsers Firefox --single-run && testcafe firefox test/e2e/test.js --app \"npm run dev-e2e\"",
+    "travis": "testcafe firefox test/e2e/test.js --app \"npm run dev-e2e\"",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "dev-e2e": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
