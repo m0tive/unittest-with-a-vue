@@ -1,3 +1,5 @@
+var webpackConfig = require('../../webpack.config');
+
 module.exports = function(config) {
     config.set({
         frameworks: ['jasmine'],
@@ -6,6 +8,12 @@ module.exports = function(config) {
             '*.js',
         ],
 
-        browsers: ['Chrome', 'Firefox']
+        preprocessors: {
+            '*.js': ['webpack']
+        },
+
+        browsers: ['Chrome', 'Firefox'],
+
+        webpack: webpackConfig
     })
 }
