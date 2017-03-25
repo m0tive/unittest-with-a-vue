@@ -22,10 +22,12 @@
                 </a>
             </li>
         </ul>
+        <twitter-feed />
     </div>
 </template>
 
 <script>
+import TwitterFeed from './components/TwitterFeed.vue';
 export default {
     name: 'app',
     data () {
@@ -42,6 +44,9 @@ export default {
                 .replace(/^https?:\/\//, '')
                 .replace(/\/$/, '')
         }
+    },
+    components: {
+        TwitterFeed
     }
 }
 </script>
