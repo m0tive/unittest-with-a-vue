@@ -44,6 +44,7 @@ module.exports = {
     },
     modules: [
       path.resolve('./src'),
+      path.resolve('./lib'),
       path.resolve('./node_modules')
     ]
   },

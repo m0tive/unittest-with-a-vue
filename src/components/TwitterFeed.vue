@@ -5,12 +5,13 @@
 </template>
 
 <script>
+import { twitterFetcher } from 'twitterFetcher';
 export default {
     name: 'twitter-feed',
     data () {
         return {
             userID: "pdddddds"
         }
-    }
+    },
 }
 </script>
