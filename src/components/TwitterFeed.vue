@@ -1,8 +1,8 @@
 <template>
     <div class="twitter-feed">
         <button v-on:click="getTweets">Get Tweets</button>
-        <ol class="twitter-feed" v-for="tweetObj in tweets">
-            <li>{{ tweetObj.tweet }}</li>
+        <ol class="twitter-feed">
+            <li v-for="tweetObj in tweets" v-html="tweetObj.tweet"></li>
         </ol>
     </div>
 </template>
